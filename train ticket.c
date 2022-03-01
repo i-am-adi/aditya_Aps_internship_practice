@@ -21,12 +21,12 @@ scanf("%d",&f);
 total_fare=p*f;
 printf("total_fare=%d",total_fare);
 printf("\n________________________________________________________________________________________");
-printf("\nname : %s",p_name);
+printf("\nname : %s\t\t|",p_name);
 printf("\nsource : %s         |\tdestination : %s",source,dest);
 printf("\n________________________________________________________________________________________");
 printf("\nno of passengers : %d    |\tfare per passenger:%d",p,f);
 printf("\n________________________________________________________________________________________");
-printf("\ntotal_fare: %d",total_fare);
+printf("\n\t\t\t|total_fare: %d",total_fare);
 printf("\n________________________________________________________________________________________");
 
 }
